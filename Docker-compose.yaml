@@ -1,20 +1,20 @@
 services:
-
   apache:
     build: ./apache
     container_name: apache
     ports:
       - "80:80"
     volumes:
-      - ./src:/usr/local/apache2/htdocs
+      - ./src:/usr/local/apache2/htdocs/src
+      - ./public:/usr/local/apache2/htdocs/public
     depends_on:
       - php
-
   php:
     build: ./php
     container_name: php
     volumes:
-      - ./src:/usr/local/apache2/htdocs
+      - ./src:/usr/local/apache2/htdocs/src
+      - ./public:/usr/local/apache2/htdocs/public
 
   mariadb:
     image: mariadb:latest
