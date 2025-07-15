@@ -35,9 +35,5 @@ services:
       - "53:53/udp"
       - "53:53/tcp"
 
-
-
-
-
 volumes:
   mariadb_data:
