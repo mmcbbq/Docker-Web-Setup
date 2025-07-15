@@ -1,0 +1,6 @@
+
+
+zone "bbq-web.zz"in {
+	type master;
+	file "/var/lib/bind/bbq-web.fwd";
+	};

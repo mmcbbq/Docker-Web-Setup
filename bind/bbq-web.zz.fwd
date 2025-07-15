@@ -1,0 +1,26 @@
+$TTL	86400
+@	IN	SOA	ns-1.bbq-web.zz. root.bbq-web.zz. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 )	; Negative Cache TTL
+;
+@		IN	NS	ns-1.bbq-web.zz.
+ns-1		IN	A	10.101.111.240
+www.ali		IN	A	10.101.111.240
+www.alw.bbq-web.zz. 	 IN 	 A 10.101.111.100 
+www.boa.bbq-web.zz. 	 IN 	 A 10.101.111.101 
+www.bus.bbq-web.zz. 	 IN 	 A 10.101.111.102 
+www.ioe.bbq-web.zz. 	 IN 	 A 10.101.111.103 
+www.jam.bbq-web.zz. 	 IN 	 A 10.101.111.104 
+www.lim.bbq-web.zz. 	 IN 	 A 10.101.111.105 
+www.rai.bbq-web.zz. 	 IN 	 A 10.101.111.106 
+www.std.bbq-web.zz. 	 IN 	 A 10.101.111.107 
+www.trt.bbq-web.zz. 	 IN 	 A 10.101.111.108 
+www.elh.bbq-web.zz. 	 IN 	 A 10.101.111.109 
+www.gue.bbq-web.zz. 	 IN 	 A 10.101.111.110
+www.paj.bbq-web.zz. 	 IN 	 A 10.101.111.111 
+www.elc.bbq-web.zz. 	 IN 	 A 10.101.111.112 
+www.efe.bbq-web.zz. 	 IN 	 A 10.101.111.113 
+www.mem.bbq-web.zz. 	 IN 	 A 10.101.111.114 

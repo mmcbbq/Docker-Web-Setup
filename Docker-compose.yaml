@@ -20,14 +20,24 @@ services:
     image: mariadb:latest
     container_name: mariadb
     environment:
-      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_ROOT_PASSWORD: nein
       MYSQL_DATABASE: myapp
       MYSQL_USER: user
-      MYSQL_PASSWORD: userpass
+      MYSQL_PASSWORD: test
     ports:
       - "3306:3306"
     volumes:
       - mariadb_data:/var/lib/mysql
+  bind9:
+    build: ./bind
+    container_name: bind9
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+
+
+
+
 
 volumes:
   mariadb_data:
