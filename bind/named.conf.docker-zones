@@ -1,6 +1,4 @@
-
-
-zone "bbq-web.zz"in {
+zone "web.bbq"in {
 	type master;
-	file "/var/lib/bind/bbq-web.fwd";
+	file "/var/lib/bind/web.bbq.fwd";
 	};
